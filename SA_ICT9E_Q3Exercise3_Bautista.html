@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Q3 | Exercise 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style type="text/css">
+    body{
+      background: url(Sportsy.jpeg);
+      background-attachment: fixed;
+      padding: 20px;
+      opacity: 2.80;
+    }
+    img{
+      width: 50%;
+      height: 50%;
+    }
+    .container {
+      padding: 30px;
+      opacity: 0.80px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container bg-white">
+    <h2>Boostrap Tables</h2>
+    <p>Powerful and Amazing Athletes</p>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope col="col" class="text-secondary">Ranking</th>
+          <th scope="col" class="text-primary"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Athlete</th>
+          <th scope col="col" class="text-success">Source of Income</th>
+          <th scope="col" class="text-danger">Net Worth</th>
+          <th scope="col" class="text-warning">Date of Birth</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td> <a href="https://www.nba.com/player/201939/stephen-curry"><img src="Ma man Stephen.jpeg" class="rounded-circle"></a> &nbsp; &nbsp; &nbsp;Stephen Curry</td>
+          <td>Professional Basketball Player in the NBA</td>
+          <td>160,000,000$</td>
+          <td>March 14th, 1988</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td> <a href="https://latestnews.fresherslive.com/articles/hidilyn-diaz-net-worth-age-height-and-more-1119585"><img src="Queen Hidilyn Diaz.jpeg" class="rounded"></a> &nbsp; &nbsp; &nbsp;Hidilyn Diaz</td>
+          <td>Olympic Philippine Athlete</td>
+          <td>1,000,000$</td>
+          <td>February 20th, 1991</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td> <a href="https://www.basketball-reference.com/players/b/bryanko01.html"><img src="Black mamba.jpeg" class="rounded-circle"></a> &nbsp; &nbsp; &nbsp;Kobe Bryant</td>
+          <td>Former Professional Basketball Player in the NBA</td>
+          <td>500,000$</td>
+          <td>August 23rd, 1978 - January 26th, 2020 (Died Aged 41)</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td> <a href="https://people.com/sports/dennis-rodman-dating-history/"><img src="Dennis.jpeg" class="rounded"></a> &nbsp; &nbsp; &nbsp;Dennis Rodman</td>
+          <td>Former Professional Basketball Player in the NBA</td>
+          <td>500,000$</td>
+          <td>May 13th, 1961</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td> <a href="https://www.britannica.com/biography/Cristiano-Ronaldo"><img src="Sui.jpeg" class="rounded-circle"></a> &nbsp; &nbsp; &nbsp;Christiano Ronaldo</td>
+          <td>Famous Professional Soccer Player</td>
+          <td>490,000,000$</td>
+          <td>February 5th, 1985</td>
+        </tr>
+      </tbody>
+    </table>
+
+</div>
+<!-- https://www.nba.com/player/201939/stephen-curry https://latestnews.fresherslive.com/articles/hidilyn-diaz-net-worth-age-height-and-more-1119585 https://www.basketball-reference.com/players/c/curryst01.html https://www.basketball-reference.com/players/b/bryanko01.html https://www.basketball-reference.com/players/r/rodmade01.html https://www.sssamiti.org/cristiano-ronaldo-net-worth/#:~:text=So%20in%20this%20article%20we,popular%20player%20of%20this%20game. a-->
+<br>
+<div class="container bg-white">
+  <h2 align="center" class="text-success">Want to join the Athletes Club?</h2>
+  <h5 align="center" class="text-primary">Sign up now!</h5>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Name:</label>
+      <div class="col-sm-10">
+        <input type="name" class="form-control" id="name" placeholder="Enter Name" name="name">
+      </div>
+    </div>
+    <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="age">Age:</label>
+      <div class="col-sm-10">
+        <input type="age" class="form-control" id="age" placeholder="Enter Age" name="age">
+      </div>
+    </div>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+      </div>
+    </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Password:</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <div class="checkbox">
+            <label><input type="checkbox" name="remember">Remember Me</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-danger">Cancel</button>         
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
